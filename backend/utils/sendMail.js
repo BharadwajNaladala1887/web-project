@@ -1,4 +1,4 @@
-/*import nodemailer from "nodemailer";
+import nodemailer from "nodemailer";
 import { CLIENT_BASE_URL, SERVER_BASE_URL } from "./CONSTANTS.js";
 
 export const sendMail = ({email, verifyToken})=>{
@@ -84,4 +84,4 @@ export const sendMail = ({email, verifyToken})=>{
         console.log('Email sent: ' + info.response);
       }
     });
-  }*/
+  }
